@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #070707fb;
+    padding: 5px 0;   
+}
+
+.info span{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.info span:hover{
+    color: red;
+    font-weight: bold;
+}
+
+header{
+    position: relative;
+    display:flex;
+    align-items: flex-end;
+    width: 100vw;
+    background-image: url("../images/city-heroes.jpg");
+    background-size: cover;
+    background-position: -230px;
+    height: 180px;    
+}
+ 
+.header-title{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    background-color: #000;
+    padding: 15px;
+}
+
+nav:hover{
+    background-color: red;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    font-family: Helvetica, sans-serif;
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul li:hover{
+    color: #000;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+h2{
+    align-self: flex-start;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 20px ;
+    border-bottom: 2px solid red;
+}
+
+h2:hover{
+    color:#000000;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+   
+.whatsapp-logo{
+    margin-top: 5px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.cards-container{
+    width:70%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.card-heroe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/city-heroes.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 60px 5px;
+ }
+
+.card-heroe img{
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0 2px;
+    width: 100px;
+    height: 100px;  
+}
+
+.card-heroe span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.card-heroe button{
+    padding: 10px;
+    background-color: #000000;
+    color: red;
+}
+
+.card-heroe button:hover{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-heroe h3{
+    background-color: #000000;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 14px;
+}
+
+.card-heroe p{
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+    margin: 10px 0;
+
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+   font-size: 20px;
+    color:#fff;
+    font-weight: bold;
+}
+
+footer span{
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+}
+
+footer span:hover{
+    color: rgb(219, 123, 123);
+    cursor: pointer;
+}
